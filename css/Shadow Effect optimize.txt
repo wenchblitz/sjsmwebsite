@@ -1,0 +1,44 @@
+/*
+CSS Name: Shadow Effect
+Description: NextGEN Default Style with a Shadow effect
+Author: Alex Rabe
+Version: 1.60
+   
+This is a template stylesheet that can be used with NextGEN Gallery. I tested the
+styles with a default theme Kubrick. Modify it when your theme struggle with it,
+it's only a template design
+
+*/
+
+.ngg-gallery-thumbnail img {
+	background-color: #FFFFFF;
+	border: 1px solid #E4E3E3;
+}
+
+.ngg-gallery-thumbnail img:hover {
+        border:1px solid #E4E3E3;
+	background-color: #E4E3E3;
+} 
+
+/* ----------- Gallery navigation -------------*/
+
+.ngg-navigation a.page-numbers,
+.ngg-navigation a.next,
+.ngg-navigation a.prev,
+.ngg-navigation span.page-numbers,
+.ngg-navigation span.next,
+.ngg-navigation span.prev {
+	border:1px solid #DDDDDD;
+	margin-right:3px;
+	padding:3px 7px;
+}
+
+.ngg-navigation a.page-numbers:hover,
+.ngg-navigation a.next:hover,
+.ngg-navigation a.prev:hover, 
+.ngg-navigation span.page-numbers:hover,
+.ngg-navigation span.next:hover,
+.ngg-navigation span.prev:hover {
+	background-color: #3EAFDE;
+	color: #FFFFFF !important;
+	text-decoration: none !important;
